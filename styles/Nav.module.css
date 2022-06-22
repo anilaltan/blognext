@@ -1,0 +1,18 @@
+.nav{
+    padding: 60px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.logo{
+    font-size: 20px;
+}
+
+.logo a{
+    text-decoration: underline;
+}
+
+.logo a:hover{
+    color:lightblue;
+}

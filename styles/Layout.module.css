@@ -1,0 +1,19 @@
+.header{
+    top: 0;
+    font-family: sans-serif;
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    background: #EFEFEF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header a{
+    text-decoration: underline;
+}
+
+.header a:hover{
+    color: lightblue;
+}

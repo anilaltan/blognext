@@ -1,0 +1,22 @@
+.fakeimg {
+    background-color: #aaa;
+    height:200px;
+    width: 100%;
+    padding: 20px;
+}
+  
+.card {
+    max-width: 1200px;
+    float: none;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.card p{
+    font-size: 30px;
+}
+
+
+  
