@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import PostList from '../Components/Postlist'
+import PostList from '../Components/PostList'
 import styles from '../styles/Home.module.css'
 
 export default function Home({ posts }) {
