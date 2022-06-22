@@ -7,10 +7,10 @@ const PostList = ({ posts }) => {
     return(
         <>
             <Grid>
-                {posts.data.map((post) => {
+                {posts.data.map((post, index) => {
                     return(
-                        <li key={post.id} className={styles.li}>
-                            <Post post={post} />
+                        <li key={`${post.id}+${index}`} className={styles.li}>
+                            <Post key={post.id} post={post} />
                         </li>
                     )
                     
