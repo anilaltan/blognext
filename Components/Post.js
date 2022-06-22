@@ -6,9 +6,9 @@ const Post = ({ post }) => {
     return(
         <div className={styles.card}>
             <div className={styles.container}>
-                <h3>{post.attributes.published}</h3>
-                <h1>{post.attributes.title}</h1>
-                <p>{post.attributes.body}</p>
+                <h3>22/05/2022</h3>
+                <h1>{post.title}</h1>
+                <p>{post.body}</p>
                 <Link href={`/posts/${post.id}`}>
                     <a className={styles.btn_primary}>Read More</a>
                 </Link>

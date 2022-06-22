@@ -21,6 +21,8 @@
     font-size: 2.5rem;
     letter-spacing: 0.5px;
     color: #333;
+    height:3.6em;
+    overflow:hidden;
 }
 
 .container p{

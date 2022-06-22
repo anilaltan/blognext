@@ -7,7 +7,7 @@ const PostList = ({ posts }) => {
     return(
         <>
             <Grid>
-                {posts && posts.data.map((post) => {
+                {posts && posts.map((post) => {
                     return(
                         <div key={post.id}>
                             <Post post={post} />
