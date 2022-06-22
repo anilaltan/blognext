@@ -8,7 +8,7 @@ const PostList = ({ posts }) => {
         <>
             <Grid>
                 {posts.data.map(post => (
-                    <Post post={post}/>))}
+                    <Post post={post} key={post.id}/>))}
             </Grid>
             
         </>
