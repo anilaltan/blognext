@@ -9,7 +9,7 @@ const PostList = ({ posts }) => {
             <Grid>
                 {posts.data.map(post => (
                     <div key={post.id}>
-                        <Post post={post}/>
+                        <Post key={post.id} post={post} />
                     </div>
                     ))}
             </Grid>
